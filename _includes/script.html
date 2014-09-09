@@ -1,5 +1,5 @@
-<script src="/reveal.js/lib/js/head.min.js"></script>
-<script src="/reveal.js/js/reveal.min.js"></script>
+<script src="{{ site.baseurl }}/reveal.js/lib/js/head.min.js"></script>
+<script src="{{ site.baseurl }}/reveal.js/js/reveal.min.js"></script>
 
 <!-- reveal.js init -->
 <script>
@@ -17,12 +17,12 @@
     // Optional libraries used to extend on reveal.js
     dependencies: [
       // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
-      { src: '/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: '{{ site.baseurl }}/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
 
 
 
       // Speaker notes
-      { src: '/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: '{{ site.baseurl }}/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 
 
     ]
