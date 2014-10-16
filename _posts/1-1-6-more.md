@@ -28,7 +28,7 @@ Instead of telling you about music, how about I `Show`{: .button} you?
 
 In Math class, replace pictures of equations with formulas that students can `Play` with:
 
-insert math example
+<iframe src="https://trinket.io/embed/latex/9886960f4f" width="100%" height="256" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 </section>
 
